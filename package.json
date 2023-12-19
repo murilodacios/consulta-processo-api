@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files",
-    "start": "prisma generate && prisma migrate deploy && node dist/server.js"
+    "start": "node dist/server.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
