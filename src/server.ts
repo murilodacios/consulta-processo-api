@@ -15,6 +15,7 @@ app.register(consultaProcesso)
 
 app.listen({
     port: 8119,
+    host: "0.0.0.0"
 }).then(() =>{
     console.log("Server running...")
 })
